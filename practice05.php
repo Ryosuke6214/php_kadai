@@ -1,7 +1,8 @@
 <?php
 #設問１
 $name = "Ryosuke";
-if ($name = "Ryosuke"){
+
+if ($name == "Ryosuke"){
     echo "私は" . $name . "です";
     echo "\n";
 }else{
